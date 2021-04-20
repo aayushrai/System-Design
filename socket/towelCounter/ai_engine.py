@@ -47,5 +47,5 @@ while True:
     print("grp" , group)
     frame = cv2.imdecode(frame, cv2.IMREAD_COLOR)
     resize = cv2.resize(frame,(500,500))
-    cv2.imshow('ImageWindow',resize)
-    cv2.waitKey(1)
+    # cv2.imshow('ImageWindow',resize)
+    # cv2.waitKey(1)

@@ -58,7 +58,7 @@ while True:
     except Exception as e:
         print(e)
         print("May be socket ",engineCounter,"not running")
-    print("time taken",time.time()-st)
+    print("time taken {:.6f}".format(time.time()-st))
     engineCounter += 1
     img_counter += 1
 
