@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message B64Image {
+    string b64image = 1;
+    int32 width = 2;
+    int32 height = 3;
+}
+
+message UserInfo{
+    string status = 1;
+
+}
+
+service ImagePreprocessing{
+    rpc facerecog(B64Image) returns (UserInfo){}
+}

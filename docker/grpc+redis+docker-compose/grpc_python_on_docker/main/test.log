@@ -1,0 +1,596 @@
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Not in REPL -> leaving logger event level as is.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG:faker.factory:Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG:faker.factory:Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG:faker.factory:Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG:faker.factory:Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG:faker.factory:Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG:faker.factory:Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG:faker.factory:Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG:faker.factory:Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG:faker.factory:Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG:faker.factory:Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG:faker.factory:Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG:faker.factory:Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG:faker.factory:Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG:faker.factory:Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG:faker.factory:Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG:faker.factory:Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:faker.factory:Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG:faker.factory:Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG:faker.factory:Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+ERROR:grpc._server:Exception calling application: type object 'Exception' has no attribute 'RedisError'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/redis/client.py", line 667, in execute_command
+    connection.send_command(*args)
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 70, in publisher
+    self.conn.publish(channel_name,str(self.data))
+  File "/usr/local/lib/python3.8/dist-packages/redis/client.py", line 2034, in publish
+    return self.execute_command('PUBLISH', channel, message)
+  File "/usr/local/lib/python3.8/dist-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/uchiha/.local/lib/python3.8/site-packages/grpc/_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "server.py", line 11, in facerecog
+    response.faceid = imageRecog.FaceRecog(request.b64image,request.width,request.height)
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 107, in FaceRecog
+    publishDataToRedis(user_ids)
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 126, in publishDataToRedis
+    worker.publisher(attendees,'json_loader')
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 71, in publisher
+    except Exception.RedisError as er:
+AttributeError: type object 'Exception' has no attribute 'RedisError'
+ERROR:grpc._server:Exception calling application: type object 'Exception' has no attribute 'RedisError'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/redis/client.py", line 667, in execute_command
+    connection.send_command(*args)
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 70, in publisher
+    self.conn.publish(channel_name,str(self.data))
+  File "/usr/local/lib/python3.8/dist-packages/redis/client.py", line 2034, in publish
+    return self.execute_command('PUBLISH', channel, message)
+  File "/usr/local/lib/python3.8/dist-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/uchiha/.local/lib/python3.8/site-packages/grpc/_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "server.py", line 11, in facerecog
+    response.faceid = imageRecog.FaceRecog(request.b64image,request.width,request.height)
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 107, in FaceRecog
+    publishDataToRedis(user_ids)
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 126, in publishDataToRedis
+    worker.publisher(attendees,'json_loader')
+  File "/home/uchiha/Desktop/facegenie enterprise/main/imageRecog.py", line 71, in publisher
+    except Exception.RedisError as er:
+AttributeError: type object 'Exception' has no attribute 'RedisError'
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+DEBUG:pymongo.ocsp_support:OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+DEBUG:pymongo.ocsp_support:Verifying response
+DEBUG:pymongo.ocsp_support:Responder is issuer
+DEBUG:pymongo.ocsp_support:Caching OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+DEBUG:pymongo.ocsp_support:Peer did not staple an OCSP response
+DEBUG:pymongo.ocsp_support:Requesting OCSP data
+DEBUG:pymongo.ocsp_support:Trying http://r3.o.lencr.org
+DEBUG:pymongo.ocsp_support:Using cached OCSP response.
+DEBUG:pymongo.ocsp_support:OCSP cert status: <OCSPCertStatus.GOOD: 0>
+ERROR:grpc._server:Exception calling application: 'UserInfo' object has no attribute 'faceid'
+Traceback (most recent call last):
+  File "/home/uchiha/.local/lib/python3.8/site-packages/grpc/_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "grpcServer.py", line 11, in facerecog
+    response.faceid = imageRecog.FaceRecog(request.b64image,request.width,request.height)
+AttributeError: 'UserInfo' object has no attribute 'faceid'
+ERROR:grpc._server:Exception calling application: 'UserInfo' object has no attribute 'faceid'
+Traceback (most recent call last):
+  File "/home/uchiha/.local/lib/python3.8/site-packages/grpc/_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "grpcServer.py", line 11, in facerecog
+    response.status = imageRecog.FaceRecog(request.b64image,request.width,request.height)
+AttributeError: 'UserInfo' object has no attribute 'faceid'
+ERROR:grpc._server:Exception calling application: 'UserInfo' object has no attribute 'faceid'
+Traceback (most recent call last):
+  File "/home/uchiha/.local/lib/python3.8/site-packages/grpc/_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "grpcServer.py", line 11, in facerecog
+    response.status = imageRecog.FaceRecog(request.b64image,request.width,request.height)
+AttributeError: 'UserInfo' object has no attribute 'faceid'

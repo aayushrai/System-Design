@@ -1,0 +1,6 @@
+pymongo
+face-recognition
+face-recognition-models
+redis
+joblib
+sklearn

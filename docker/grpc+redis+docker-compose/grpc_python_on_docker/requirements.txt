@@ -1,0 +1,7 @@
+grpcio
+pymongo
+redis
+numpy
+joblib
+sklearn
+grpcio-tools

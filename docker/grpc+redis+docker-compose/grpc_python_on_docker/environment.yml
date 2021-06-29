@@ -1,0 +1,17 @@
+name: grpc-server
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+    - defaults
+dependencies:
+    - python==3.6
+    - pip=9.0.1=py36_1
+    - pip:
+        - grpcio
+        - grpcio-tools
+        - pymongo
+        - redis
+        - numpy
+        - joblib
+        - sklearn
+        - protobuf==3.17.3
