@@ -58,3 +58,11 @@ EXPOSE 5000
 # Start the web service
 CMD cd /root/ && \
     python3 faceRecogServer.py
+    
+    
+    
+    
+    
+    
+    
+    
