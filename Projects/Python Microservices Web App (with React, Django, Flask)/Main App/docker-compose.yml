@@ -1,11 +1,18 @@
-version: "3.9"
+version: '3.8'
 services:
   backend:
     build: .
+    command: 'python main.py'
     ports:
       - "8001:5000"
     volumes:
       - .:/app
+    depends_on:
+      - db
+  
+  queue:
+    build: .
+    command: 'python consumer.py'
     depends_on:
       - db
 

@@ -1,32 +1,41 @@
-from flask import Flask
+from flask import Flask,jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from sqlalchemy import UniqueConstraint
+from dataclasses import dataclass
 
 app = Flask(__name__)   # creating flask app
-app.config["SQLALCHEMY_DATABASE_URL"] = "mysql://root:root@db/main" # for data base connection mysql://user:password@host/database
+
+# for data base connection mysql://user:password@host/database
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:root@db/main"
 CORS(app)  # adding cors
 
 db = SQLAlchemy(app)
 
+@dataclass
 class Product(db.Model):
-    id = db.Column(db.Integer,primary_key=True, autoincrement=False)  # we turn off the auto increment because we are going to use product_id which is coming from django
-    title = db.Column(db.String(200))
-    image = db.Column(db.String(200)) 
+    # we turn off the auto increment because we are going to use product_id which is coming from django
+    id: int
+    title: str
+    image: str
 
+    id = db.Column(db.Integer, primary_key=True, autoincrement=False)
+    title = db.Column(db.String(200))
+    image = db.Column(db.String(200))
+
+@dataclass
 class ProductUser(db.Model):
-    id = db.Column(db.Integer,primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer)
     product_id = db.Column(db.Integer)
 
-    UniqueConstraint("user_id","product_id",name="user_product_unique")
+    UniqueConstraint("user_id", "product_id", name="user_product_unique")
 
 
-
-@app.route("/")
+@app.route("/api/products")
 def index():
-    return "Hello world"
+    return jsonify(Product.query.all())
 
 
 if __name__ == "__main__":
-    app.run(debug=True,host="0.0.0.0")
+    app.run(debug=True, host="0.0.0.0")
