@@ -1,8 +1,11 @@
-import pika
-import json
+import pika,json,os,django
 from pika import connection
 from pika import channel
 from main import Product, db
+
+ # below 2 line added because this file is outside django app and we are using it without this django app throw an error
+os.environ.setdefault("DJANGO_SETTING_MODULE","admin.settings") 
+django.setup()
 
 params = pika.URLParameters(
     "amqps://lrtmtglx:oYHJOduxC6B0WByra-d6Rzw0ge8R8sLY@hornet.rmq.cloudamqp.com/lrtmtglx")
