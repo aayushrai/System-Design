@@ -1,16 +1,27 @@
-import { useState } from "react";
+import { PropsWithoutRef, SyntheticEvent, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import Wrapper from "./Wrapper";
 
-export default function ProductCreate() {
+export default function ProductEdit(props: PropsWithoutRef<any>) {
   const [title, settitle] = useState("");
   const [image, setimage] = useState("");
   const [redirect, setredirect] = useState(false);
-
+  const { id } = useParams();
   const baseUrl = "http://localhost:8000";
-  const submit = async (event: any) => {
+
+  useEffect(() => {
+    (async () => {
+      const response = fetch(baseUrl + `/api/products/${id}`);
+      const product = await (await response).json();
+      settitle(product.title);
+      setimage(product.image);
+    })();
+  }, []);
+
+  const submit = async (event: SyntheticEvent) => {
     event.preventDefault();
-    await fetch(baseUrl + "/api/products", {
-      method: "POST",
+    await fetch(baseUrl + `/api/products/${id}`, {
+      method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ title, image }),
     });
@@ -29,7 +40,7 @@ export default function ProductCreate() {
             <input
               type="text"
               className="form-control"
-              value={title}
+              defaultValue={title}
               onChange={(e) => settitle(e.target.value)}
             />
           </div>
@@ -38,7 +49,7 @@ export default function ProductCreate() {
             <input
               type="text"
               className="form-control"
-              value={image}
+              defaultValue={image}
               onChange={(e) => setimage(e.target.value)}
             />
           </div>

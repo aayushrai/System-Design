@@ -10,7 +10,6 @@ export default function Products() {
     (async () => {
       const response = fetch(baseUrl + "/api/products");
       const products = await (await response).json();
-      console.log(products);
       setProducts(products);
     })();
   }, []);
@@ -25,11 +24,16 @@ export default function Products() {
   };
   return (
     <Wrapper>
-        <div className="pt-3 pb-2 mb-3 border-bottom">
-            <div className="btn-toolbar mb-2 mb-md-0">
-                <Link to={"/admin/products/create"} className="btn btn-sm btn-outline-secondary">Add</Link>
-            </div>
+      <div className="pt-3 pb-2 mb-3 border-bottom">
+        <div className="btn-toolbar mb-2 mb-md-0">
+          <Link
+            to={"/admin/products/create"}
+            className="btn btn-sm btn-outline-secondary"
+          >
+            Add
+          </Link>
         </div>
+      </div>
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
@@ -42,14 +46,22 @@ export default function Products() {
             </tr>
           </thead>
           <tbody>
-            {Products.map((product: Product) => {
+            {Products.map((product: Product, index) => {
               return (
-                <tr>
+                <tr key={index}>
                   <td>{product.id}</td>
-                  <td>{product.image}</td>
+                  <img src={product.image} width={40} height={40} />
                   <td>{product.title}</td>
                   <td>{product.likes}</td>
                   <td>
+                    <div className="btn-group mr-2">
+                      <Link
+                        className="btn btn-sm btn-outline-secondary"
+                        to={`/admin/products/${product.id}/edit`}
+                      >
+                        Edit
+                      </Link>
+                    </div>
                     <div className="btn-group mr-2">
                       <a
                         href="#"
